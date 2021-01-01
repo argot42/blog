@@ -1,0 +1,13 @@
+baseURL = "https://argot42.github.io/"
+languageCode = "en-us"
+title = "lonely terminal_"
+theme = "lonelytheme"
+
+[params]
+    copete = "Yet another blog about computers"
+    link = "lonely terminal"
+
+[markup]
+    [markup.highlight]
+        style="bw"
+

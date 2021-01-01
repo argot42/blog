@@ -1,0 +1,21 @@
+{{ define "home" }}
+<div id="main">
+    <div id="main-header">
+        <h3 id="main-title">{{ .Title }}</h3>
+        <h5 id="main-copete">{{ .Site.Params.Copete }}</h5>
+    </div>
+    <div id="main-list">
+        {{ range .Site.RegularPages.ByPublishDate.Reverse }}
+        <div class="main-posts">
+            <div>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="main-post-date">{{ .Date.Format "January 2, 2006" }}</span>
+            </div>
+            <div class="main-summary">
+                {{ .Summary }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

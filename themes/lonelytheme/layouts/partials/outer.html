@@ -1,0 +1,6 @@
+{{ define "page" }}
+{{- partial "header.html" . -}}
+<div id="content">
+    {{- block "content" . }}{{- end }}
+</div>
+{{ end }}

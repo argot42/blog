@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/argot42/argot42.github.io.git
+	branch = master

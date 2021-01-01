@@ -1,0 +1,7 @@
+{{ define "content" }}
+<div id="article">
+    <h1 id="article-title">{{ .Title }}</h1>
+    <div id="article-date">{{ .Date.Format "Monday 02, January 2006" }}</div>
+    <div id="article-content">{{ .Content }}</div>
+</div>
+{{ end }}
