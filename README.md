@@ -1,0 +1,2 @@
+# blog
+funny little blog
